@@ -1,0 +1,24 @@
+COORDS_LIMIT: 10
+PLAYER_USE_ONLY: "&cThis command is for player use only."
+COMMAND:
+  USAGE:
+  - "&e/coords list"
+  - "&e/coords undisplay"
+  - "&e/coords display <name>"
+  - "&e/coords add <name>"
+  - "&e/coords remove <name>"
+  LIST_FORMAT: "&6Name - &e<name> &6Location - &e<location>"
+  LIST:
+  - "&6Listing all ccoords"
+  - "&e<coords>"
+  NO_COORDS: "&eYou don't have any coords."
+  LIMIT: "&eYou have exceeded coords limit."
+  SAVED: "&eSuccessfully saved your coords with name &6<name>&e!"
+  REMOVED: "&eYou have successfully removed coords with name &6<name>&e!"
+  ALREADY_EXISTS: "&eCoords with name &6<name> &ealready exist!"
+  DOESNT_EXIST: "&eCoords with name &6<name> &edon't exist!"
+  DISPLAY: "&6<name> &e- &6<coords>"
+  ALREADY_DISPLAYING: "&eYou are already displaying coords."
+  DISPLAYING: "&eStarting to display coords for &6<name>&e."
+  NOT_DISPLAYING: "&eYou aren't displaying any coords."
+  UNDISPLAYING: "&eUndisplayed coords&e."

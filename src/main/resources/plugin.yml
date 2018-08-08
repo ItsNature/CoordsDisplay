@@ -1,0 +1,8 @@
+name: CoordsDisplay
+version: 0.0.1
+author: ItsNature
+main: gg.nature.coordsdisplay.CoordsDisplay
+
+commands:
+  coords:
+    description: Coords command.
