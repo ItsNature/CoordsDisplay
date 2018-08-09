@@ -34,7 +34,10 @@ public class CoordsManager implements Listener {
 
         Bukkit.getPluginManager().registerEvents(this, CoordsDisplay.getInstance());
     }
+
     public void disable() {
+        Bukkit.getOnlinePlayers().forEach(player -> this.dataMap.get(player.getUniqueId()).save());
+
         this.dataMap.clear();
         this.display.clear();
     }
